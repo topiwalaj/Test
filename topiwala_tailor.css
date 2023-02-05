@@ -1,0 +1,117 @@
+/*Navbar Section*/
+#navbar-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #344055;
+    align-items: center;
+    height: 136px;
+}
+#logo{
+    width: 254.84px;
+    height: 112px;
+    margin: 20px 80px 20px 40px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    list-style-type: none;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+    color: #5B9ACE;
+}
+#login-button{
+    background-color: #B99855;
+    font-family: 'Inter', sans-serif;
+    color: #2C2C2C;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin: 0 50px 0 70px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+@media only screen and (min-width: 1190px) and (max-width: 1214px) {
+    #navbar-section{
+        flex-direction: column;
+    }
+}
+
+
+.txtover{
+    position: relative;
+}
+.txtover figcaption{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/*Mainpage---------Section-1---------*/
+.section-1{
+    position: relative;
+    background-color: pink;
+    height: 1212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 94px 154px 323px 48px;
+    /*gap: 94px 154px 323px 48px;
+
+  /*  background-image: url(C:\Users\JCT-Admin\OneDrive\Pictures\Tailoring\20230123_131159.jpg);
+  background-image: image(C:\Users\JCT-Admin\OneDrive\Pictures\Tailoring\20230123_131159.jpg);*/
+}
+
+.section-1 figcaption{
+    position:absolute;
+}
+#mainimg{
+    height: 1212px;
+    filter: blur(7.5px);
+}
+#para-1{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 69px;
+    height: 318px;
+   /* margin: 70px 40px;
+    padding: 60px 0;*/
+}
+#para-2{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 48px;
+    height: 224px;
+    /*margin: 140px 40px;   
+    padding: 5px 0;*/
+}
+#para-3{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 44px;
+    height: 51px;
+    /*margin: 210px 40px;
+    padding: 10px 0;*/
+}
